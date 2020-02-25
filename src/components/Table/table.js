@@ -14,6 +14,7 @@ import styled from 'styled-components'
 
 const customDiv = styled.div`
     width: 100%;
+    float: left;
 `
 const styledTable = styled.table`
 
@@ -36,7 +37,7 @@ const Th = styled.th`
 `
 
 function Table(props){
-    const {title, colums, datas , ...other} = props;
+    const { colums, datas } = props;
 
     const header_line = colums.map( object => (
             <Th >{object.name}</Th>

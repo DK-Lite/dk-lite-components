@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Table, } from './components'
+import { Card, Table, LineGraph }  from './components'
 
 function App() {
   return (
@@ -16,6 +15,13 @@ function App() {
               {age: '18', name: 'ddk' },
           ]}
         />
+        <Card width='500px' height='300px' margin='10px 10px 10px 10px'>
+          
+        </Card>
+        <Card width='500px' height='300px' margin='10px 10px 10px 10px'>
+          
+        </Card>
+
     </div>
   );
 }
